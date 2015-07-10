@@ -1,0 +1,3 @@
+<component name="DependencyValidationManager">
+  <scope name="wrye-bash-all" pattern="file:Mopy/bash//*&amp;&amp;!file:Mopy/bash/chardet/*&amp;&amp;!file:Mopy/bash/compiled/*&amp;&amp;!file:Mopy/bash/db/*&amp;&amp;!file:Mopy/bash/images/nsis//*&amp;&amp;!file:Mopy/bash/images/readme//*&amp;&amp;!file:Mopy/bash/images/tools//*&amp;&amp;!file:Mopy/bash/l10n//*&amp;&amp;!file:Mopy/bash/l10n/*&amp;&amp;!file:Mopy/bash/images//*&amp;&amp;!file[wrye-bash]:Mopy/bash/windows.py&amp;&amp;!file[wrye-bash]:Mopy/bash/bish.py" />
+</component>

@@ -1,0 +1,3 @@
+<component name="DependencyValidationManager">
+  <scope name="wrye-bash-patcher" pattern="file:Mopy/bash/patcher//*" />
+</component>
