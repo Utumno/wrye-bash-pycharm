@@ -6,6 +6,7 @@
         <option name="RIGHT_MARGIN" value="79" />
         <Python>
           <option name="BLANK_LINES_AROUND_TOP_LEVEL_CLASSES_FUNCTIONS" value="1" />
+          <option name="SPACE_AFTER_NUMBER_SIGN" value="false" />
         </Python>
         <XML>
           <option name="XML_LEGACY_SETTINGS_IMPORTED" value="true" />
