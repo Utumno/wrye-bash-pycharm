@@ -3,6 +3,7 @@
     <description>[Utumno]Inspection profile for wrye Bash code - no typos</description>
     <option name="myName" value="default_copy_no_typos" />
     <option name="myLocal" value="false" />
+    <inspection_tool class="AmdModulesDependencies" enabled="false" level="WEAK WARNING" enabled_by_default="true" />
     <inspection_tool class="Annotator" enabled="true" level="ERROR" enabled_by_default="true" />
     <inspection_tool class="AnonymousFunctionJS" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="AppEngineDeprecatedRuntimeInspection" enabled="false" level="WARNING" enabled_by_default="false" />
@@ -214,6 +215,7 @@
       <group names="y,height,top,bottom" />
       <exclude classes="Math" />
     </inspection_tool>
+    <inspection_tool class="JSTypeOfValues" enabled="false" level="WARNING" enabled_by_default="true" />
     <inspection_tool class="JSUndeclaredVariable" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
     <inspection_tool class="JSUndefinedPropertyAssignment" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
     <inspection_tool class="JSUnfilteredForInLoop" enabled="false" level="WARNING" enabled_by_default="false" />
@@ -239,6 +241,7 @@
       <option name="m_minLength" value="1" />
       <option name="m_maxLength" value="32" />
     </inspection_tool>
+    <inspection_tool class="LongLine" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="LoopStatementThatDoesntLoopJS" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="LossyEncoding" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="MagicNumberJS" enabled="false" level="WARNING" enabled_by_default="false" />
@@ -292,7 +295,7 @@
     <inspection_tool class="PyAugmentAssignmentInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
     <inspection_tool class="PyBDDParametersInspection" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="PyBehaveInspection" enabled="false" level="WARNING" enabled_by_default="false" />
-    <inspection_tool class="PyBroadExceptionInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+    <inspection_tool class="PyBroadExceptionInspection" enabled="true" level="WARNING" enabled_by_default="true" />
     <inspection_tool class="PyByteLiteralInspection" enabled="true" level="WARNING" enabled_by_default="true" />
     <inspection_tool class="PyCallByClassInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
     <inspection_tool class="PyCallingNonCallableInspection" enabled="true" level="WARNING" enabled_by_default="true" />
@@ -319,6 +322,7 @@
     <inspection_tool class="PyFromFutureImportInspection" enabled="true" level="WARNING" enabled_by_default="true" />
     <inspection_tool class="PyGlobalUndefinedInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
     <inspection_tool class="PyInconsistentIndentationInspection" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="PyIncorrectDocstringInspection" enabled="false" level="WEAK WARNING" enabled_by_default="true" />
     <inspection_tool class="PyInitNewSignatureInspection" enabled="true" level="WARNING" enabled_by_default="true" />
     <inspection_tool class="PyInterpreterInspection" enabled="true" level="WARNING" enabled_by_default="true" />
     <inspection_tool class="PyListCreationInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
@@ -328,6 +332,7 @@
     <inspection_tool class="PyMethodOverridingInspection" enabled="true" level="WARNING" enabled_by_default="true" />
     <inspection_tool class="PyMethodParametersInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
     <inspection_tool class="PyMissingConstructorInspection" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="PyMissingOrEmptyDocstringInspection" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
     <inspection_tool class="PyNestedDecoratorsInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
     <inspection_tool class="PyNonAsciiCharInspection" enabled="true" level="WARNING" enabled_by_default="true" />
     <inspection_tool class="PyNoneFunctionAssignmentInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
@@ -446,6 +451,13 @@
     <inspection_tool class="TodoComment" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="TrivialConditionalJS" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="TrivialIfJS" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="TsLint" enabled="false" level="ERROR" enabled_by_default="false" />
+    <inspection_tool class="TypeScriptAccessibilityCheck" enabled="false" level="WEAK WARNING" enabled_by_default="true" />
+    <inspection_tool class="TypeScriptCheckImport" enabled="false" level="ERROR" enabled_by_default="true" />
+    <inspection_tool class="TypeScriptUnresolvedFunction" enabled="false" level="WEAK WARNING" enabled_by_default="true" />
+    <inspection_tool class="TypeScriptUnresolvedVariable" enabled="false" level="WEAK WARNING" enabled_by_default="true" />
+    <inspection_tool class="TypeScriptValidateJSTypes" enabled="false" level="WEAK WARNING" enabled_by_default="true" />
+    <inspection_tool class="TypeScriptValidateTypes" enabled="false" level="ERROR" enabled_by_default="true" />
     <inspection_tool class="UnnecessaryContinueJS" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="UnnecessaryLabelJS" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="UnnecessaryLabelOnBreakStatementJS" enabled="false" level="WARNING" enabled_by_default="false" />
