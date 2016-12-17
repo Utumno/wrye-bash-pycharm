@@ -2,7 +2,6 @@
   <profile version="1.0" is_locked="true">
     <description>[Utumno]Inspection profile for wrye Bash code - no typos</description>
     <option name="myName" value="default_copy_no_typos" />
-    <option name="myLocal" value="false" />
     <inspection_tool class="AmdModulesDependencies" enabled="false" level="WEAK WARNING" enabled_by_default="true" />
     <inspection_tool class="Annotator" enabled="true" level="ERROR" enabled_by_default="true" />
     <inspection_tool class="AnonymousFunctionJS" enabled="false" level="WARNING" enabled_by_default="false" />
@@ -79,6 +78,9 @@
       </option>
     </inspection_tool>
     <inspection_tool class="CssUnknownTarget" enabled="false" level="ERROR" enabled_by_default="false" />
+    <inspection_tool class="CssUnresolvedClass" enabled="false" level="ERROR" enabled_by_default="false" />
+    <inspection_tool class="CssUnresolvedCustomProperty" enabled="false" level="ERROR" enabled_by_default="true" />
+    <inspection_tool class="CssUnresolvedCustomPropertySet" enabled="false" level="ERROR" enabled_by_default="false" />
     <inspection_tool class="CssUnusedSymbol" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="CucumberExamplesColon" enabled="false" level="ERROR" enabled_by_default="false" />
     <inspection_tool class="CucumberMissedExamples" enabled="false" level="ERROR" enabled_by_default="false" />
@@ -110,8 +112,15 @@
     <inspection_tool class="DuplicatedBlockNamesInspection" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="Duplicates" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="DynamicallyGeneratedCodeJS" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="ES6BindWithArrowFunction" enabled="false" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="ES6ConvertRequireIntoImport" enabled="false" level="INFORMATION" enabled_by_default="false" />
+    <inspection_tool class="ES6ConvertVarToLetConst" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="ES6MissingAwait" enabled="false" level="INFORMATION" enabled_by_default="false" />
+    <inspection_tool class="ES6ModulesDependencies" enabled="false" level="WEAK WARNING" enabled_by_default="true" />
+    <inspection_tool class="ES6UnusedImports" enabled="false" level="WARNING" enabled_by_default="true" />
     <inspection_tool class="ES6Validation" enabled="false" level="ERROR" enabled_by_default="false" />
     <inspection_tool class="EmptyCatchBlockJS" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="EmptyEventHandler" enabled="false" level="WARNING" enabled_by_default="true" />
     <inspection_tool class="EmptyFinallyBlockJS" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="EmptyStatementBodyJS" enabled="false" level="WARNING" enabled_by_default="false">
       <option name="m_reportEmptyBlocks" value="false" />
@@ -123,6 +132,10 @@
     <inspection_tool class="ExceptionCaughtLocallyJS" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="ExtendsTagPositionInspection" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="FallThroughInSwitchStatementJS" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="FlowJSConfig" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="FlowJSCoverage" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="FlowJSError" enabled="false" level="ERROR" enabled_by_default="false" />
+    <inspection_tool class="FlowJSFlagCommentPlacement" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="ForLoopReplaceableByWhileJS" enabled="false" level="WARNING" enabled_by_default="false">
       <option name="m_ignoreLoopsWithoutConditions" value="false" />
     </inspection_tool>
@@ -182,8 +195,10 @@
     <inspection_tool class="InjectedReferences" enabled="true" level="ERROR" enabled_by_default="true" />
     <inspection_tool class="InnerHTMLJS" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="JSAccessibilityCheck" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="JSAnnotator" enabled="false" level="ERROR" enabled_by_default="true" />
     <inspection_tool class="JSBitwiseOperatorUsage" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="JSCheckFunctionSignatures" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="JSClassNamingConvention" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="JSClosureCompilerSyntax" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="JSCommentMatchesSignature" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="JSComparisonWithNaN" enabled="false" level="WARNING" enabled_by_default="false" />
@@ -193,7 +208,9 @@
     <inspection_tool class="JSDeprecatedSymbols" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
     <inspection_tool class="JSDuplicatedDeclaration" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="JSFileReferences" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="JSFunctionExpressionToArrowFunction" enabled="false" level="INFORMATION" enabled_by_default="false" />
     <inspection_tool class="JSHint" enabled="false" level="ERROR" enabled_by_default="false" />
+    <inspection_tool class="JSIgnoredPromiseFromCall" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
     <inspection_tool class="JSJQueryEfficiency" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="JSLastCommaInArrayLiteral" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="JSLastCommaInObjectLiteral" enabled="false" level="ERROR" enabled_by_default="false" />
@@ -203,13 +220,16 @@
       <option name="queries" value="trace,write" />
       <option name="updates" value="pop,push,shift,splice,unshift" />
     </inspection_tool>
+    <inspection_tool class="JSNonASCIINames" enabled="false" level="WARNING" enabled_by_default="true" />
     <inspection_tool class="JSPotentiallyInvalidConstructorUsage" enabled="false" level="WARNING" enabled_by_default="false">
       <option name="myConsiderUppercaseFunctionsToBeConstructors" value="true" />
     </inspection_tool>
     <inspection_tool class="JSPotentiallyInvalidTargetOfIndexedPropertyAccess" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="JSPotentiallyInvalidUsageOfThis" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="JSPrimitiveTypeWrapperUsage" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="JSReferencingArgumentsOutsideOfFunction" enabled="false" level="ERROR" enabled_by_default="true" />
     <inspection_tool class="JSReferencingMutableVariableFromClosure" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="JSStringConcatenationToES6Template" enabled="false" level="INFORMATION" enabled_by_default="false" />
     <inspection_tool class="JSSuspiciousNameCombination" enabled="false" level="WARNING" enabled_by_default="false">
       <group names="x,width,left,right" />
       <group names="y,height,top,bottom" />
@@ -220,6 +240,7 @@
     <inspection_tool class="JSUndefinedPropertyAssignment" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
     <inspection_tool class="JSUnfilteredForInLoop" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="JSUnnecessarySemicolon" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="JSUnresolvedExtXType" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="JSUnresolvedFunction" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
     <inspection_tool class="JSUnresolvedLibraryURL" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="JSUnresolvedVariable" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
@@ -260,6 +281,7 @@
     </inspection_tool>
     <inspection_tool class="NonBlockStatementBodyJS" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="NonShortCircuitBooleanExpressionJS" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="NpmUsedModulesInstalled" enabled="false" level="WEAK WARNING" enabled_by_default="true" />
     <inspection_tool class="ObjectAllocationIgnoredJS" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="OctalIntegerJS" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="OverlyComplexArithmeticExpressionJS" enabled="false" level="WARNING" enabled_by_default="false">
@@ -283,6 +305,7 @@
     </inspection_tool>
     <inspection_tool class="PointlessBooleanExpressionJS" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="ProblematicWhitespace" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="Puppet3Deprecations" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="Puppet4Deprecations" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="PuppetEnableLibraries" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="PuppetMultipleHashSetParamsPerResourceInstance" enabled="false" level="ERROR" enabled_by_default="false" />
@@ -300,7 +323,7 @@
     <inspection_tool class="PyCallByClassInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
     <inspection_tool class="PyCallingNonCallableInspection" enabled="true" level="WARNING" enabled_by_default="true" />
     <inspection_tool class="PyChainedComparisonsInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
-    <inspection_tool class="PyClassHasNoInitInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+    <inspection_tool class="PyClassHasNoInitInspection" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
     <inspection_tool class="PyClassicStyleClassInspection" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="PyComparisonWithNoneInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
     <inspection_tool class="PyCompatibilityInspection" enabled="false" level="WARNING" enabled_by_default="false">
@@ -317,6 +340,7 @@
     <inspection_tool class="PyDictDuplicateKeysInspection" enabled="true" level="WARNING" enabled_by_default="true" />
     <inspection_tool class="PyDocstringInspection" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
     <inspection_tool class="PyDocstringTypesInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+    <inspection_tool class="PyDunderSlotsInspection" enabled="true" level="WARNING" enabled_by_default="true" />
     <inspection_tool class="PyExceptClausesOrderInspection" enabled="true" level="WARNING" enabled_by_default="true" />
     <inspection_tool class="PyExceptionInheritInspection" enabled="true" level="WARNING" enabled_by_default="true" />
     <inspection_tool class="PyFromFutureImportInspection" enabled="true" level="WARNING" enabled_by_default="true" />
@@ -333,6 +357,7 @@
     <inspection_tool class="PyMethodParametersInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
     <inspection_tool class="PyMissingConstructorInspection" enabled="true" level="WARNING" enabled_by_default="true" />
     <inspection_tool class="PyMissingOrEmptyDocstringInspection" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyMissingTypeHintsInspection" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
     <inspection_tool class="PyNestedDecoratorsInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
     <inspection_tool class="PyNonAsciiCharInspection" enabled="true" level="WARNING" enabled_by_default="true" />
     <inspection_tool class="PyNoneFunctionAssignmentInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
@@ -434,11 +459,14 @@
     <inspection_tool class="SqlPostgresqlSelectFromProcedureInspection" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="SqlResolveInspection" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="SqlShouldBeInGroupByInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="SqlSignatureInspection" enabled="false" level="WARNING" enabled_by_default="true" />
     <inspection_tool class="SqlTypeInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="SqlUnusedVariableInspection" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="StatementsPerFunctionJS" enabled="false" level="WARNING" enabled_by_default="false">
       <option name="m_limit" value="30" />
     </inspection_tool>
     <inspection_tool class="StringLiteralBreaksHTMLJS" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="Stylelint" enabled="false" level="ERROR" enabled_by_default="false" />
     <inspection_tool class="SwitchStatementWithNoDefaultBranchJS" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="SyntaxError" enabled="true" level="ERROR" enabled_by_default="true" />
     <inspection_tool class="TailRecursionJS" enabled="false" level="WARNING" enabled_by_default="false" />
@@ -454,6 +482,7 @@
     <inspection_tool class="TsLint" enabled="false" level="ERROR" enabled_by_default="false" />
     <inspection_tool class="TypeScriptAccessibilityCheck" enabled="false" level="WEAK WARNING" enabled_by_default="true" />
     <inspection_tool class="TypeScriptCheckImport" enabled="false" level="ERROR" enabled_by_default="true" />
+    <inspection_tool class="TypeScriptPreferShortImport" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="TypeScriptUnresolvedFunction" enabled="false" level="WEAK WARNING" enabled_by_default="true" />
     <inspection_tool class="TypeScriptUnresolvedVariable" enabled="false" level="WEAK WARNING" enabled_by_default="true" />
     <inspection_tool class="TypeScriptValidateJSTypes" enabled="false" level="WEAK WARNING" enabled_by_default="true" />
